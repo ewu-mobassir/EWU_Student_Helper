@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e4d6b"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="About Us"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text=" Mobassir Ahsan"
+                    style="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Student Id: 2018-2-60-037"
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Department: CSE"
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Email Address: "
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="2018-2-60-037@std.ewubd.edu"
+                    android:textSize="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Phone: 01XXXXXXXXX"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+                </TextView>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text=" Mahfuza Yousuf"
+                    style="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Student Id: 2018-2-60-038"
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Department: CSE"
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Email Address: "
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="2018-2-60-038@std.ewubd.edu"
+                    android:textSize="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Phone: 01XXXXXXXXX"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@tools:sample/avatars"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text=" Md. Saifur Rahman"
+                    style="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Student Id: 2018-2-60-066"
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Department: CSE"
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Email Address: "
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="2018-2-60-066@std.ewubd.edu"
+                    android:textSize="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Phone: 01XXXXXXXXX"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@tools:sample/avatars"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@android:color/black"
+            android:text="Back" />
+    </LinearLayout>
+</LinearLayout>

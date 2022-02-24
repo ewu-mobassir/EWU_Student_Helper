@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e4d6b"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="Add Custom Semester "
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/etYear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Year"
+                android:inputType="number"
+                android:gravity="center"/>
+<!--                android:background="@android:drawable/btn_dropdown"-->
+<!--                android:spinnerMode="dropdown"-->
+            <EditText
+                android:id="@+id/etSemester"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Semester"
+                android:inputType="text"
+                android:gravity="center"/>
+            //android:background="@android:drawable/btn_dropdown"
+            //android:spinnerMode="dropdown"
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/etCourse1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="1st course code">
+                </EditText>
+                <EditText
+                    android:id="@+id/etCredit1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="numberDecimal"
+                    android:hint="course credit">
+                </EditText>
+                <EditText
+                    android:id="@+id/etGrade1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="grade">
+                </EditText>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/etCourse2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="2nd course code">
+                </EditText>
+                <EditText
+                    android:id="@+id/etCredit2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="numberDecimal"
+                    android:hint="course credit">
+                </EditText>
+                <EditText
+                    android:id="@+id/etGrade2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="grade">
+                </EditText>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/etCourse3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="3rd course code">
+                </EditText>
+                <EditText
+                    android:id="@+id/etCredit3"
+                    android:layout_width="match_parent"
+                    android:inputType="numberDecimal"
+                    android:layout_height="40dp"
+                    android:hint="course credit">
+                </EditText>
+                <EditText
+                    android:id="@+id/etGrade3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="grade">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/etCourse4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="4th course code">
+                </EditText>
+                <EditText
+                    android:id="@+id/etCredit4"
+                    android:layout_width="match_parent"
+                    android:inputType="numberDecimal"
+                    android:layout_height="40dp"
+                    android:hint="course credit">
+                </EditText>
+                <EditText
+                    android:id="@+id/etGrade4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="grade">
+                </EditText>
+            </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/btnAddSemester"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Add" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

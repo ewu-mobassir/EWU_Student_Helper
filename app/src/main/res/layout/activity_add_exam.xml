@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e4d6b"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="Add Exam"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:background="#ffffff">
+
+        <EditText
+            android:id="@+id/etCourseCode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Course Code"
+            android:textSize="20dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etSection"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textSize="20dp"
+            android:hint="Section" />
+
+        <EditText
+            android:id="@+id/etExamRoom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:hint="Room Number" />
+
+        <EditText
+            android:id="@+id/etExamTimeSlot"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Exam Date and Time Slot"
+            android:inputType="text"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@android:color/black"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/btnAddExam"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@android:color/black"
+            android:text="Add" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
